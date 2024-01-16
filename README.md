@@ -45,6 +45,8 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 ### MeshingSnippet.cs
 - Pressing the bumper button toggles the mesh, and the constructed mesh is instead represented with a transparent material (this can be set in the inspector).
 
+![](gifs/mesh.gif)
+
 ### Playspace.cs
 - I modified the script to allow for resetting the playing space, and to select corners with the raycast instead of the controller.
 - For the raycast selection to work, I included the mesh collider in the world mesh object.
