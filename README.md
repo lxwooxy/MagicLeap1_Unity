@@ -57,3 +57,5 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 
 ### GestureScript.cs
 - Modified to create the Cube game object when both hands are in the Fist pose, and deactivating when both are in the OK pose.
+
+![](./gifs/handtracking.gif)
