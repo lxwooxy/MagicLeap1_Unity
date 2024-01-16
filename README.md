@@ -34,7 +34,7 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 - A new script I wrote to manage moving objects, in conjunction with the `PlaceObject.cs` script.
 - Using the bumper button while raycasting at an object will apply a force to the object. For this to work, the object must have a rigidbody component.
 
-![](https://github.com/lxwooxy/MagicLeap1_Unity/tree/main/gifs/duckhit.gif)
+![](https://github.com/lxwooxy/MagicLeap1_Unity/blob/main/gifs/duckhit.gif)
 
 ### DestroyObject.cs
 - A new script I wrote to manage destroying objects, in conjunction with the `PlaceObject.cs` script.
