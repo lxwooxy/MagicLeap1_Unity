@@ -21,8 +21,6 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 ## Scripts
 
 ### Dynamic Beam.cs 
-https://www.youtube.com/watch?v=ZfJqkIszODI&ab_channel=MagicLeap
-
 - Use a `private MLInput.Controller` variable for the controller instead of a `public GameObject`;
 - Get the position and rotation of the controller object with `.Position` and `.Orientation`;
 
