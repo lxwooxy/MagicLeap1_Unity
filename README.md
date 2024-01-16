@@ -34,7 +34,7 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 - A new script I wrote to manage moving objects, in conjunction with the `PlaceObject.cs` script.
 - Using the bumper button while raycasting at an object will apply a force to the object. For this to work, the object must have a rigidbody component.
 
-![](gifs/duckhit.gif)
+![](./gifs/duckhit.gif)
 
 ### DestroyObject.cs
 - A new script I wrote to manage destroying objects, in conjunction with the `PlaceObject.cs` script.
@@ -45,13 +45,15 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 ### MeshingSnippet.cs
 - Pressing the bumper button toggles the mesh, and the constructed mesh is instead represented with a transparent material (this can be set in the inspector).
 
-![](gifs/mesh.gif)
+![](./gifs/mesh.gif)
 
 ### Playspace.cs
 - I modified the script to allow for resetting the playing space, and to select corners with the raycast instead of the controller.
 - For the raycast selection to work, I included the mesh collider in the world mesh object.
 - While constructing the playing space and selecting the corners, pressing the bumper button will reset the selection. 
 - After the playing space is constructed, pressing the home button will reset the playing space and return to the selection state.
+
+![](./gifs/space.gif)
 
 ### GestureScript.cs
 - Modified to create the Cube game object when both hands are in the Fist pose, and deactivating when both are in the OK pose.
