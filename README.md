@@ -34,11 +34,13 @@ I have found a precarious balance with Unity 2020.3.48f1 and Magic Leap Unity Pa
 - A new script I wrote to manage moving objects, in conjunction with the `PlaceObject.cs` script.
 - Using the bumper button while raycasting at an object will apply a force to the object. For this to work, the object must have a rigidbody component.
 
+![Duck Hit gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzlzdzM3b2Y2NW1hZjJ6ZDEzeWU5ZmhqaHh4azhlb3AwZWJyaG5jZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LKAymiM1lL4lXuYJKN/giphy.gif)
 
 ### DestroyObject.cs
 - A new script I wrote to manage destroying objects, in conjunction with the `PlaceObject.cs` script.
 - Use the home button to destroy the object. After destroying an object, I save the tag of the destroyed object. The next time the home button is pressed while raycasting at a non object (the world mesh), every other object with the same tag will be destroyed.
 - I did this because I wanted to be able to destroy multiple objects of the same type at once, and not just the one that is being raycasted at.
+Video:
 
 ### MeshingSnippet.cs
 - Pressing the bumper button toggles the mesh, and the constructed mesh is instead represented with a transparent material (this can be set in the inspector).
